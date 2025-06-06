@@ -120,6 +120,12 @@ The YouTube Emotion Analyzer is a tool designed to extract and analyze emotions 
 4. In `MAIN_APP.py`, replace the `DEVELOPER_KEY` with your API key:
    
    DEVELOPER_KEY = "YOUR_API_KEY_HERE"
+
+Similarly, go to google search for gemini api. Go to respective google website and generate Gemini API key.
+
+In the ai_analysis and ai_factcheck functions' parameters replace the api_key with your generated Gemini API Key:
+
+   api_key="Your_Gemini_API_Key_Here"
    
 
 ## Usage  
