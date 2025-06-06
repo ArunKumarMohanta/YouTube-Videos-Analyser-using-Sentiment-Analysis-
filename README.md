@@ -62,9 +62,9 @@ The YouTube Emotion Analyzer is a tool designed to extract and analyze emotions 
 ## Installation  
 
 1. **Clone the repository**:  
-   git clone https://github.com/ArunKumarMohanta/sentiment_analysis.git
+   git clone https://github.com/ArunKumarMohanta/YouTube-Videos-Analyser-using-Sentiment-Analysis-.git
    
-   cd sentiment_analysis
+   cd YouTube-Videos-Analyser-using-Sentiment-Analysis-
 
 3. **Set up a virtual environment (optional)**:  
    python -m venv venv
@@ -77,6 +77,11 @@ The YouTube Emotion Analyzer is a tool designed to extract and analyze emotions 
    pip install -r requirements.txt  
 
 6. **Download NLTK resources**:  
+   Locate nltk_resources_download.py file in the YouTube-Videos-Analyser-using-Sentiment-Analysis- directory.
+   Run that python file to download NLTK resources.
+
+   OR Follow below steps
+
    Open a Python shell and run the following:
    
    import nltk
