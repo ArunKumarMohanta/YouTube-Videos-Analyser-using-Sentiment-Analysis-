@@ -224,13 +224,16 @@ sentiment_analysis/
 
 ## Screenshots 
 
-![image](https://github.com/user-attachments/assets/bf4ca139-bcbb-49da-a6c0-6e003862bbef)
+![example1](https://github.com/user-attachments/assets/c9d83ea1-4059-4fbc-a5df-baa5c890f7aa)
 
-![image](https://github.com/user-attachments/assets/ec166df0-8b63-488d-b674-adb290948bc3)
 
-![image](https://github.com/user-attachments/assets/71bd281f-a26d-4516-974d-6961c0c94c85)
+![example2](https://github.com/user-attachments/assets/50dc26c4-d14b-47df-84d2-92b435d64fbb)
 
-![image](https://github.com/user-attachments/assets/850c8e24-b732-43dc-b0fd-2e1d7b6ec902)
+
+![example3](https://github.com/user-attachments/assets/47c520ac-32f1-4572-ab67-39cef1bbadbc)
+
+
+![example4](https://github.com/user-attachments/assets/2ca6e2c7-b14a-410e-82d6-14e8cb23d6e2)
 
 
 ## Milestones
