@@ -45,4 +45,4 @@ typing-inspection==0.4.1
 typing_extensions==4.13.2
 uritemplate==4.1.1
 urllib3==2.4.0
-youtube-transcript-api==0.6.0
+youtube-transcript-api==1.1.0
