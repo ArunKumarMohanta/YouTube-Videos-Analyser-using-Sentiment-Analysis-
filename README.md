@@ -2,7 +2,7 @@
 
 #  YouTube Emotion Analyzer
 
-This project analyzes the sentiments and emotions of both content creators and viewers by examining various components of a YouTube video, such as comments, video title, description, tags, and transcript. It uses the YouTube Data API and Natural Language Toolkit (NLTK) to extract and process emotional and sentiment data. The analysis results are displayed with an intuitive GUI built using customtkinter, providing graphical visualizations for insights.
+This project analyzes the sentiments and emotions of both content creators and viewers by examining various components of a YouTube video, such as comments, video title, description, tags, and transcript. It uses the YouTube Data API and Natural Language Toolkit (NLTK) to extract and process emotional and sentiment data. The analysis results are displayed with an intuitive GUI built using customtkinter, providing graphical visualizations for insights. Finally , It also provides summary of the video and fact checks various facts discussed in the video.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -41,6 +41,8 @@ The YouTube Emotion Analyzer is a tool designed to extract and analyze emotions 
 - **Emotion Detection**: Identifies a wide range of emotions (joy, sadness, anger, etc.) from both the creator and the viewers using a predefined emotion list.  
 - **Sentiment Classification**: Uses the NLTK `SentimentIntensityAnalyzer` to determine whether the content has a positive, neutral, or negative sentiment.  
 - **Graphical Visualization**: Displays the emotions and sentiment data through custom bar graphs for both the **creator** and **viewers**.
+- **Summary**: Provides a summary of the video
+- **Fack Checking**: The fact check feature of the application fact checks various facts discussed in the video
 - User-friendly GUI: Built with customtkinter for smooth interaction.
 - File Handling: View combined analysis results from saved text files.
 - Error Handling: Alerts for invalid inputs or API errors.
@@ -50,6 +52,10 @@ The YouTube Emotion Analyzer is a tool designed to extract and analyze emotions 
 - Python: Core programming language
 
 - YouTube Data API: For fetching video data and comments
+  
+- youtube-transcript-api: For fetching video meta data
+
+- Google's Gemini API: For generating summary and fact checking results of the video 
 
 - NLTK (Natural Language Toolkit): For sentiment and emotion analysis
 
@@ -115,6 +121,8 @@ The YouTube Emotion Analyzer is a tool designed to extract and analyze emotions 
 - Pillow==8.3.2: Used for handling image files, particularly for the GUI buttons.
   
 - youtube-transcript-api==0.5.0: Used to fetch video subtitles.
+
+- ggogle-generativeai: Used to generate summary and fact checking results.
   
 
 ## API Setup  
@@ -244,6 +252,8 @@ Developed the core logic for extracting and analyzing YouTube video data.
 Implemented text preprocessing and emotion analysis using a lexicon-based approach.
 Integrated VADER sentiment analysis for more accurate sentiment scores.
 Created bar graphs to visualize the emotion distribution and overall sentiment.
+Generated Summary of the video.
+Fact Checked various facts discussed in the Video.
 Developed a graphical user interface (GUI) using customtkinter for user interaction.
 Provided buttons to view the raw data and display the overall tone and sentiment analysis results.
 
